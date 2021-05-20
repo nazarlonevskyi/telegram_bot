@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="kiber_system.lab2.lab2.skimage" />
+          <option value="cy_sy.lab2_kyselytsya.z" />
+          <option value="config.forbidden_messages" />
+          <option value="config.offensive_messages" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
