@@ -6,7 +6,7 @@ db_file = 'database.vdb'
 random_dog_api = 'https://random.dog/woof.json'
 random_stats_api = 'https://api.thedogapi.com/v1/breeds/4'
 random_stats_api_1 = 'https://api.thedogapi.com/v1/breeds/5'
-random_stats_api_2 = 'https://api.thedogapi.com/v1/breeds/6'
+photo_api = 'https://api.thedogapi.com/v1/images/search?category_ids=1,2,3,4,5,6,7,8,9,10.json'
 
 # Образливі повідомлення
 offensive_messages = ["поганий", "тупий", "нефункціональний", "дурний", "кончений",]
