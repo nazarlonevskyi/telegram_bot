@@ -122,7 +122,7 @@ def random_stats_dog_help(message):
 @bot.message_handler(content_types=["text"])
 def random_stats(message):
     if message.text.lower() == "show me a doge crupto price":
-        req = requests.get("https://yobit.net/api/2/doge_usd/ticker")
+        req = requests.get(url=config.dogecoin_stats_api)
         response = req.json()
         high_price = response["ticker"]["high"]
         sell_price = response["ticker"]["sell"]
