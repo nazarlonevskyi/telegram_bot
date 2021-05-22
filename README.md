@@ -9,8 +9,8 @@ API
 --
 The following APIs are also used for the bot:
 * [RandomDog](https://random.dog/woof.json)
-* [StatsDog](https://api.thedogapi.com)
-* [CryptoStats](https://yobit.net/api)
+* [StatsDog](https://thedogapi.com/)
+* [DogeCoin](https://yobit.net/api)
 ***
 Prepare
 --

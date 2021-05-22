@@ -46,13 +46,12 @@ def user_entering_name(message):
 # При введенні команди '/help' виведемо команди для роботи з ботом.
 @bot.message_handler(commands=['help'])
 def handle_start_help(message):
-    bot.send_message(message.chat.id, 'Command list: '
-                                      '\n/help, '
-                                      '\n/start, '
-                                      '\n/price'
-                                      '\n/set_name, '
-                                      '\n/random_dog'
-                                      '\n/random_stats_dog')
+    bot.send_message(message.chat.id, 'Command list: ⤵️ '
+                                      '\n/start -start, '
+                                      '\n/price - check crypto Doge'
+                                      '\n/set_name - u can change your name, '
+                                      '\n/random_dog  i send .jpg or .gif  random dog'
+                                      '\n/random_stats_dog - i send a random info about dog')
 
 
 # При введенні користувачем образливих слів саме до бота з масиву 'offensive_messages' з 'config'
@@ -110,6 +109,7 @@ def random_stats_dog_help(message):
                                       '\n✔ Темперамент і походження - пиши "temp"')
     bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAEBUPhgphiW3lLddusR1Qn2oRCodDHELQACEAADnP4yMIzJFdBdAnGcHwQ')
 
+# При введенні команди '/price'.
 @bot.message_handler(commands=['price'])
 def random_stats_dog_help(message):
     bot.send_message(message.chat.id, '🤗 Ти знав, що в честь собаки назвали криптовалюту?'
