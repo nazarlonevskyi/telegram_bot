@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-token = '1840540698:AAGKA7APuisEq7pGfvhqAMByeV502f92TXs'
+token = 'YOUR TOKEN'
 db_file = 'database.vdb'
 random_dog_api = 'https://random.dog/woof.json'
 random_stats_api = 'https://api.thedogapi.com/v1/breeds/4'
